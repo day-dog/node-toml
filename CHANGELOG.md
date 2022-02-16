@@ -4,7 +4,7 @@
 
 ### Features
 
-- `parse` function to convert toml strings to JSON both synchronously and asynchronously
+- `parse` function to convert toml strings to JSON synchronously
 
 ## [0.0.2] - 2021-02-18
 
