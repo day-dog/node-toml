@@ -3,6 +3,12 @@
   "version": "0.0.1",
   "main": "index.js",
   "types": "index.d.ts",
+  "repository": "git@github.com:day-dog/node-toml.git",
+  "author": "day-dog",
+  "keywords": [
+    "toml",
+    "parser"
+  ],
   "napi": {
     "name": "toml",
     "triples": {
@@ -22,7 +28,11 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@napi-rs/cli": "^2.4.4"
+    "@napi-rs/cli": "^2.4.4",
+    "@swc-node/core": "^1.8.2",
+    "@swc-node/register": "^1.4.2",
+    "ava": "^4.0.1",
+    "ts-node": "^10.5.0"
   },
   "engines": {
     "node": ">= 10"
@@ -33,6 +43,6 @@
     "build:debug": "napi build --platform",
     "prepublishOnly": "napi prepublish -t npm",
     "version": "napi version",
-    "test": "echo 1"
+    "test": "ava"
   }
 }
