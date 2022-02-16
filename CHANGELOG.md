@@ -1,12 +1,12 @@
 # Changelog
 
-## [0.0.1] - 2021-02-17
+## [0.0.1] - 2022-02-17
 
 ### Features
 
 - `parse` function to convert toml strings to JSON synchronously
 
-## [0.0.2] - 2021-02-18
+## [0.0.2] - 2022-02-18
 
 ### Added
 

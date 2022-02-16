@@ -38,4 +38,4 @@ pasre(`
 
 ## License
 
-toml-node is licensed under the GPL-3.0 license agreement. See the LICENSE file for more information.
+@daydog/toml is licensed under the GPL-3.0 license agreement. See the LICENSE file for more information.
