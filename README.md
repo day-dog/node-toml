@@ -19,7 +19,7 @@ A TOML parsing tool written in Rust for Node.js
 You can convert toml strings to JSON both synchronously and asynchronously.
 
 ```javascript
-const {parseSync} = require('@daydog/toml')
+const { parseSync } = require('@daydog/toml')
 var data = parseSync(`
                     [test]
                     foo = "bar"
@@ -28,7 +28,7 @@ console.log(data)
 ```
 
 ```javascript
-const {pasre} = require('@daydog/toml')
+const { pasre } = require('@daydog/toml')
 pasre(`
        [test]
        foo = "bar"
@@ -38,4 +38,4 @@ pasre(`
 
 ## License
 
-toml-node is licensed under the GNU license agreement. See the LICENSE file for more information.
+toml-node is licensed under the GPL-3.0 license agreement. See the LICENSE file for more information.
